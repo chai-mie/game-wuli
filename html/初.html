@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <fieldset>
+        <legend>主要信息</legend>
+        <form action="https://search.jd.com/search" target="_blank" method="get"></form>
+            <label>
+                用户：
+                <input id="zhanghu" type="'text" name="'keyword"></lable>
+            </label>
+                <br>
+            <label>
+                密码：
+                <input id="mima" type="password" name="pwd" maxlength="12">
+            </label>
+            <br>
+            <hr>
+            <em>请勿对外泄露密码</em>
+            
+    </fieldset>
+    <fieldset>
+        <legend>购买商品款式</legend>
+        <input type="checkbox" name="kind" value="flower" id="花傲天" checked>
+        <label for='花傲天'>花傲天</label>
+        <input type="checkbox" name="kind" value="sun" id="日出战神">
+        <label for='日出战神'>日出战神</label>
+        <input type="checkbox" name="kind" value="rong" id="背带裤绒绒">
+        <label for='背带裤绒绒'>背带裤绒绒</label>
+        <br>
+        <select name="size">
+            <option>12cm</option>
+            <option>28cm</option>
+            <option>35cm</option>
+        </select>
+        <input type="hidden" name="from" value="toutiao">
+        <input type="submit" value="确认">
+        <button type="reset">重置</button>
+        <br>
+        <strong>交易谨慎
+            谨防诈骗
+        </strong>
+    </fieldset>
+    
+</body>
+</html>

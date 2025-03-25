@@ -59,8 +59,9 @@ public class InteractionController : MonoBehaviour
         isInteracting = true;
 
         // 切换摄像机
-        mainCamera.gameObject.SetActive(false);
+        //mainCamera.gameObject.SetActive(false);
         targetCamera.gameObject.SetActive(true);
+        mainCamera.gameObject.SetActive(false);
 
         // 取消勾选玩家控制器 (对应Inspector面板中的复选框)
         playerController.enabled = false;
